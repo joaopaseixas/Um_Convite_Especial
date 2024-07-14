@@ -1,0 +1,86 @@
+*{
+    font-family: "preconnect";
+    margin: 0;
+    font-family: var(--primary-font);
+}
+
+:root {   
+    color-scheme: light dark;
+    --title: Kode Mono, sans-serif, Arial, Helvetica;
+    --font-variation: Anta, sans-serif, Arial, Helvetica;
+    --primary-font: Poppins, sans-serif, Arial, Helvetica;
+    --secondary-font: Roboto, sans-serif, Arial, Helvetica;
+}
+
+#Fundex{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 13%;
+    background: #8d246d;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+#inicialText{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-left: 12rem;
+    color: white;
+    padding-bottom: 15px;
+    font-size: 28px;
+}
+
+#SecundText{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    padding-left: 9rem;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+#ahref{
+    display: flex;
+    padding-left: 20.5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    font-size: 1em;
+    background: #252525;
+    font-weight: 400;
+    border-radius: 30px;
+    border: 2px solid red;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    margin-top: 15px;
+    color: gray;
+    text-align: center;
+    padding-left: 3rem;
+}
+
+#buttonn{
+    display: flex;
+    margin-left: 17rem;
+}
+
+#enviar{
+    list-style: none;
+    border-style: none;
+}
+
+#foto{
+    padding-top: 60px;
+}
